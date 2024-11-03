@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بث مباشر</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        video {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        audio {
+            width: 100%;
+            max-width: 600px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>بث مباشر</h1>
+    <video controls autoplay>
+        <source src="https://www.youtube.com/live/G0PC9JDC-2Y?si=2QNU4-gHs3T8H26j" type="video/mp4">
+        متصفحك لا يدعم تشغيل الفيديو.
+    </video>
+
+    <h2>استمع إلى الصوت</h2>
+    <audio controls>
+        <source src="https://www.youtube.com/live/G0PC9JDC-2Y?si=2QNU4-gHs3T8H26j" type="audio/mpeg">
+        متصفحك لا يدعم تشغيل الصوت.
+    </audio>
+
+    <p>لزيارة الرابط: <a href="رابط_الخارج" target="_blank">اضغط هنا</a></p>
+</body>
+</html>
